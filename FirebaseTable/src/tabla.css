@@ -1,0 +1,297 @@
+
+
+
+th{
+    border: 1px solid black;
+
+}
+td{
+    border: 1px solid black;
+
+}
+tr{
+    border: 1px solid black;
+
+
+}
+.modalfadeout{
+
+animation:FadeOutModal 0.2s ease forwards !important; 
+
+
+    
+}
+@keyframes FadeOutModal {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0; 
+    }
+
+    
+  }
+.modal{
+display: block;
+background-color: #1f1f1f;
+color: white;
+height: 400px;
+width: 400px;
+animation: FadeInModal 0.2s ease-in forwards;
+}
+@keyframes FadeInModal {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1; 
+    }
+
+    
+  }
+
+
+
+
+.ModalInput{
+height: 14px;
+
+
+
+
+}
+.modalnotifi{
+    display: block;
+    background-color: #1f1f1f;
+    color: white;
+    height: 50px;
+    width: 300px;
+    animation: aparecerYDesaparecer 4s ease forwards;
+    
+
+}
+
+
+@keyframes aparecerYDesaparecer {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%); /* Mueve hacia arriba */
+    }
+    25% {
+      opacity: 1;
+      transform: translateY(0); /* Posición final, aparecido */
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0); /* Mantiene la posición por un tiempo */
+    }
+    75% {
+      opacity: 1;
+      transform: translateY(0); /* Mantiene la posición por un tiempo */
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100%); /* Regresa a la posición inicial */
+    }
+  }
+  
+
+
+select:focus{
+  outline: 0;
+
+
+
+
+}
+input:focus{
+  outline: 0;
+
+
+
+}
+.anadir:hover{
+  background-color: #161616 !important;
+
+
+
+}
+.anadir:active{
+background-color: #6b6b6b !important;
+
+
+
+}
+.buscar:focus{
+background-color: #161616 !important;
+
+
+
+}
+.select1 option{
+background-color: #161616 !important;
+
+
+
+
+
+}
+.select1:hover{
+  background-color: #161616 !important;
+
+}
+.select1:active{
+  background-color: #6b6b6b !important;
+
+}
+option:active{
+  background-color: #161616 !important;
+
+animation:Select 1s ease-in-out;
+transform: translateY(-8px);
+
+
+}
+
+.botonesmodal{
+background-color: #1f1f1f;
+color: white;
+outline: 0;
+
+border:solid 2px #454545;
+border-radius: 5px;
+}
+.botonesmodal:hover{
+  background-color: #161616 !important;
+
+
+}
+.botonesmodal:active{
+  background-color: #6b6b6b !important;
+
+
+
+}
+.botonmenos{
+  background-color:#1f1f1f;
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  padding: 0;
+  border: solid 2px #454545;
+  border-radius: 3px;
+  cursor: pointer;
+
+
+
+
+}
+.botonmenos:hover{
+  background-color: #161616 !important;
+
+
+
+
+}
+.botonmenos:active{
+  background-color: #6b6b6b !important;
+
+
+}
+.numeros{
+margin: 0;
+padding: 0;
+transition: opacity 0.5s ease-in-out;
+
+
+
+}
+.botonselect{
+width: 80px;
+height: 20px;
+color: white;
+background-color:#1f1f1f;
+margin: 0;
+padding: 0;
+border: solid 2px #454545;
+border-radius: 3px;
+cursor: pointer;
+display: none;
+
+
+}
+
+.botonselect:hover{
+  background-color: #161616 !important;
+}
+.botonselect:active{
+  background-color: #6b6b6b !important;
+}
+.mostrar{
+display: block !important;
+
+
+}
+.mostrar2{
+display: block !important;
+}
+.oscuro{
+background-color: #161616 !important;
+
+
+}
+.senalado{
+  outline: 2px solid black;
+  background-color: #161616 !important;
+  border: 0;
+
+
+}
+tr{
+  transition: background-color 0.3s ease;
+
+}
+.botoncopia{
+  gap: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 29px;
+  width: 120px;
+  color: white;
+  background-color:#1f1f1f;
+  margin: 0;
+  padding: 0;
+  border: solid 2px #454545;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.botoncopia:hover{
+  background-color: #161616 !important;
+
+
+}
+.botoncopia:active{
+  background-color: #6b6b6b !important;
+
+
+}
+@media only screen and (max-width: 767px) {
+.Tabla{
+
+font-size: 15px !important;
+
+
+}
+
+.buscar{
+
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+
+
+
+
+}
+
+}
