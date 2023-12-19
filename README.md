@@ -8,8 +8,9 @@ How to use:
 
 
 Here are some images:
-![Example image](https://imgur.com/AN7pA0x)
 
-![Example image](https://imgur.com/Najgula)
+![Example image](https://i.imgur.com/AN7pA0x.png)
 
-![Example image](https://imgur.com/YF6bL4j)
+![Example image](https://i.imgur.com/Najgula.png)
+
+![Example image](https://i.imgur.com/YF6bL4j.png)
