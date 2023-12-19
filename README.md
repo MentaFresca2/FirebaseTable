@@ -1,6 +1,7 @@
-First, u will nedd a firebase account with a firebase real time database.
+First, you will need a Firebase account with a Firebase Realtime Database.
 
 How to use:
-1. Do a "npm install"
-2. put you database credential (apikey, url, etc...) in the dbconfig.json
-3. Open the index.html and enjoy
+
+1. Perform an "npm install."
+2. Place your database credentials (API key, URL, etc.) in the dbconfig.json file.
+3. Open the index.html file and enjoy!
